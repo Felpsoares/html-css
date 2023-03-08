@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+main {
+    width: 405px;
+    margin: auto;
+    padding-left: 10px;
+}
+
+.video {
+    width: 538px;
+    margin: auto;
+}
+
+a#link {
+    display: block;
+    color: white;
+    width: 170px;
+    margin: auto;
+    padding-left: 102px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+a#link:hover {
+    color: lightcoral;
+}
+
+a#link:active {
+    color: blue;
+}
+
+a#voltar {
+    display: block;
+    margin: auto;
+    width: 0px;
+    margin-top: 5px;
+    padding-left:78px
+}
